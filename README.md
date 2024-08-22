@@ -13,4 +13,4 @@ Actividades de ejemplo para crear un bot con [Rasa Open Source](https://rasa.com
 - https://rasa.com/docs/rasa/installation/installing-rasa-open-source/
 - https://planetachatbot.com/construyendo-un-chatbot-en-espanol-usando-rasa-moodbot/
 - https://github.com/jaimeteb/tutoriales-rasa-es/
-
+- https://planetachatbot.com/crea-chatbot-pokemon-espanol-rasa/
