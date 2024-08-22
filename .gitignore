@@ -1,2 +1,4 @@
 rasa1/.rasa/*
 rasa-es/.rasa/*
+rasa1/models/*
+rasa-es/models/*
