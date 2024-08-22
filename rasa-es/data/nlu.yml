@@ -56,6 +56,8 @@ nlu:
     - voy a salvar al mundo
     - muy bien
     - extremandamente bien
+    - feliz
+    - muy feliz
 
 - intent: humor_infeliz
   examples: |
@@ -71,7 +73,7 @@ nlu:
     - nada bien
     - no muy bien
     - extremadamente triste
-    - muy triste
+    - preocupado
 
 - intent: bot_challenge
   examples: |
