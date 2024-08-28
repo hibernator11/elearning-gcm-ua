@@ -1,0 +1,18 @@
+version: "3.1"
+
+rules:
+
+- rule: Decir adiós siempre que el usuario dice adiós
+  steps:
+  - intent: adios
+  - action: utter_adios
+
+- rule: Decir 'Yo soy un robot' siempre que el usuario pregunte
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Sugerir un autor
+  steps:
+  - intent: buscar_autor
+  - action: action_sugerir_autor

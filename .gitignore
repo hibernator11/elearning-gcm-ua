@@ -1,4 +1,6 @@
 rasa1/.rasa/*
 rasa-es/.rasa/*
+rasa-es-autores/.rasa/*
 rasa1/models/*
 rasa-es/models/*
+rasa-es-autores/models/*

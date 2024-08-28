@@ -1,0 +1,100 @@
+version: "3.1"
+
+nlu:
+- intent: saludo
+  examples: |
+    - hola
+    - buenos días
+    - buenas tardes
+    - buenas noches
+    - qué tal
+    - hola amigo
+    - saludos
+    - qué onda
+    - hey
+
+- intent: adios
+  examples: |
+    - hasta luego
+    - Adiós
+    - nos vemos
+    - que tenga un buen día
+    - adiós adios
+    - nos vemos después
+    - salu2
+    - hasta pronto
+    - bye
+    
+- intent: afirmar
+  examples: |
+    - sí
+    - por supuesto
+    - si claro
+    - ok
+    - afirmativo
+    - así es
+    - sin dudad
+
+- intent: denegar
+  examples: |
+    - no
+    - nunca
+    - jamás
+    - no me gusta
+    - para nada
+
+- intent: humor_excelente
+  examples: |
+    - perfecto
+    - excelente
+    - grandioso
+    - me siento como un rey
+    - emocionado
+    - me siento muy bien
+    - estoy super bien
+    - estoy muy bien
+    - voy a salvar al mundo
+    - muy bien
+    - extremandamente bien
+    - feliz
+    - muy feliz
+
+- intent: humor_infeliz
+  examples: |
+    - mi día ha sido horrible
+    - estoy triste
+    - no me siento bien
+    - estoy decepcionado
+    - super triste
+    - estoy muy triste
+    - triste
+    - muy triste
+    - infeliz
+    - nada bien
+    - no muy bien
+    - extremadamente triste
+    - preocupado
+
+- intent: bot_challenge
+  examples: |
+    - ¿Eres un robot?
+    - ¿Eres un humano?
+    - ¿Estoy hablando con un bot?
+    - ¿Estoy hablando con un humano?
+
+- intent: buscar_autor
+  examples: |
+    - quiero buscar un autor
+    - Buscar autor
+    - Buscar autor del siglo de oro
+    - Siglo de oro
+    - Movimiento del Siglo de oro
+    - Escritores del Siglo de oro
+    - Poetas del siglo de oro
+    - poetas
+    - escritores
+    - autores
+    - detalles sobre autores
+    - detalles sobre el siglo de oro
+
+
