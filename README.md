@@ -6,6 +6,7 @@ Actividades de ejemplo para crear un bot con [Rasa Open Source](https://rasa.com
 - [rasa1](rasa1): ejemplo creado con el comando `rasa init`.
 - [rasa-es](rasa-es): ejemplo configurado en español.
 - [rasa-es-autores](rasa-es-autores): ejemplo que realiza llamada al API de Wikidata para obtener autores del Siglo de Oro.
+- [rasa-es-entities](rasa-es-entities): ejemplo que muestra como usar entities y slots para almacenar elementos de la conversación.
 
 ## Instrucciones
 Los siguientes instrucciones se pueden ejecutar desde línea de comando:
