@@ -5,3 +5,5 @@ rasa1/models/*
 rasa-es/models/*
 rasa-es-autores/models/*
 rasa-en-kg
+rasa-es-entities/models/*
+rasa-es-entities/.rasa/*
