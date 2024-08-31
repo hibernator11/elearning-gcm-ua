@@ -24,3 +24,4 @@ Los siguientes instrucciones se pueden ejecutar desde línea de comando:
 - https://github.com/jaimeteb/tutoriales-rasa-es/
 - https://planetachatbot.com/crea-chatbot-pokemon-espanol-rasa/
 - https://github.com/RasaHQ/rasa-action-examples/
+- https://medium.com/@sandeeppoloju0/effective-entity-recognition-in-rasa-managing-multiple-entities-within-a-single-intent-355fa4fd541a
