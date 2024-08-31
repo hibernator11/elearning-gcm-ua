@@ -1,5 +1,5 @@
 ## Introducción
-Actividades de ejemplo para crear un bot con [Rasa Open Source](https://rasa.com/docs/rasa/). Estas actividades se utilizan en la asignatura de E-Learning de cuarto curso en el Grado de Ingeniería Multimedia de la Universidad de Alicante.
+Actividades de ejemplo para crear un bot con [Rasa Open Source](https://rasa.com/docs/rasa/). Estas actividades se utilizan en la asignatura de E-Learning de cuarto curso en el [Grado de Ingeniería Multimedia de la Universidad de Alicante](https://web.ua.es/es/grados/grado-en-ingenieria-multimedia/).
 
 ## Ejemplos
 
