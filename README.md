@@ -7,7 +7,8 @@ Actividades de ejemplo para crear un bot con [Rasa Open Source](https://rasa.com
 - [rasa-es](rasa-es): ejemplo configurado en español.
 - [rasa-es-autores](rasa-es-autores): ejemplo que realiza llamada al API de Wikidata para obtener autores del Siglo de Oro.
 
-## Comandos
+## Instrucciones
+Los siguientes instrucciones se pueden ejecutar desde línea de comando:
 
 - rasa init: crea un chatbot de cero con todos los ficheros necesarios
 - rasa train: entrena el modelo con los datos que le proporcionamos
