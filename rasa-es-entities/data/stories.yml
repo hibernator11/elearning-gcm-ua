@@ -1,0 +1,43 @@
+version: "3.1"
+
+stories:
+
+- story: feliz path
+  steps:
+  - intent: saludo
+  - action: utter_saludo
+  - intent: humor_excelente
+  - action: utter_feliz
+
+- story: triste path 1
+  steps:
+  - intent: saludo
+  - action: utter_saludo
+  - intent: humor_infeliz
+  - action: utter_alegrar
+  - action: utter_ha_ayudado
+  - intent: afirmar
+  - action: utter_feliz
+
+- story: triste path 2
+  steps:
+  - intent: saludo
+  - action: utter_saludo
+  - intent: humor_infeliz
+  - action: utter_alegrar
+  - action: utter_ha_ayudado
+  - intent: denegar
+  - action: utter_adios
+
+- story: nombre y edad path
+  steps:
+  - intent: mi_nombre
+  - slot_was_set:
+    - slotNombre
+  - action: utter_edad
+  - intent: mi_edad
+  - slot_was_set:
+    - slotEdad
+  - action: utter_edadNombre
+  - intent: afirmar
+  - action: utter_adios

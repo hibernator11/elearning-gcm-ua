@@ -1,0 +1,104 @@
+version: "3.1"
+
+nlu:
+- intent: saludo
+  examples: |
+    - hola
+    - buenos días
+    - buenas tardes
+    - buenas noches
+    - qué tal
+    - hola amigo
+    - saludos
+    - qué onda
+    - hey
+
+- intent: adios
+  examples: |
+    - hasta luego
+    - Adiós
+    - nos vemos
+    - que tenga un buen día
+    - adiós adios
+    - nos vemos después
+    - salu2
+    - hasta pronto
+    - bye
+    
+- intent: afirmar
+  examples: |
+    - sí
+    - por supuesto
+    - si claro
+    - ok
+    - afirmativo
+    - así es
+    - sin dudad
+
+- intent: denegar
+  examples: |
+    - no
+    - nunca
+    - jamás
+    - no me gusta
+    - para nada
+
+- intent: humor_excelente
+  examples: |
+    - perfecto
+    - excelente
+    - grandioso
+    - me siento como un rey
+    - emocionado
+    - me siento muy bien
+    - estoy super bien
+    - estoy muy bien
+    - voy a salvar al mundo
+    - muy bien
+    - extremandamente bien
+    - feliz
+    - muy feliz
+
+- intent: humor_infeliz
+  examples: |
+    - mi día ha sido horrible
+    - estoy triste
+    - no me siento bien
+    - estoy decepcionado
+    - super triste
+    - estoy muy triste
+    - triste
+    - muy triste
+    - infeliz
+    - nada bien
+    - no muy bien
+    - extremadamente triste
+    - preocupado
+
+- intent: bot_challenge
+  examples: |
+    - ¿Eres un robot?
+    - ¿Eres un humano?
+    - ¿Estoy hablando con un bot?
+    - ¿Estoy hablando con un humano?
+
+
+- intent: mi_nombre
+  examples: |
+    - mi nombre es [Gustavo](nombre)
+    - nombre es [Gabriel](nombre)
+    - nombre [Juan](nombre)
+    - [Luis](nombre) is mi nombre
+    - por favor llámame [Susana](nombre)
+    - [Megan](nombre) es mi nombre
+    - Mi nombre es [Pepe](nombre)
+
+- intent: mi_edad
+  examples: |
+    - mi edad es [27](edad)
+    - edad es [76](edad)
+    - edad [20](edad)
+    - [12](edad) es mi edad
+    - la gente piensa que mi edad es [35](edad)
+    - [42](edad) es mi edad 
+    - mi hijo tiene [8](edad) años de edad

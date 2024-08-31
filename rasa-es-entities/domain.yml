@@ -1,0 +1,67 @@
+version: "3.1"
+
+intents:
+  - saludo
+  - adios
+  - afirmar
+  - denegar
+  - humor_excelente
+  - humor_infeliz
+  - bot_challenge
+  - mi_nombre
+  - mi_edad
+
+entities:
+  - nombre
+  - edad
+
+slots:
+  slotNombre:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: nombre
+  slotEdad:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: edad
+
+responses:
+  utter_saludo:
+  - text: "¡Hola! ¿Cómo estás?"
+
+  utter_alegrar:
+  - text: "Tengo algo para alegrarte:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_ha_ayudado:
+  - text: "¿Te ayudó?"
+
+  utter_feliz:
+  - text: "Excelente, sigue así!"
+
+  utter_adios:
+  - text: "adiós"
+
+  utter_iamabot:
+  - text: "Yo soy un robot, implementado con Rasa."
+  
+  utter_conocer:
+  - text: "Estoy muy contento de conocerte."
+  - text: "Encantado de conocerte."
+  - text: "Encantado."
+  
+  utter_edad:
+  - text: "Cuál es tu edad?"
+  - text: "Cuántos años tienes?"
+
+  utter_edadNombre:
+  - text: "{slotNombre} pareces más joven para tus {slotEdad}"
+  - text: "{slotNombre}, no me puedo creer que tengas {slotEdad}..."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
