@@ -1,0 +1,64 @@
+version: "3.1"
+
+nlu:
+- intent: saludo
+  examples: |
+    - hola
+    - buenos días
+    - buenas tardes
+    - buenas noches
+    - qué tal
+    - hola amigo
+    - saludos
+    - qué onda
+    - hey
+
+- intent: adios
+  examples: |
+    - hasta luego
+    - Adiós
+    - nos vemos
+    - que tenga un buen día
+    - adiós adios
+    - nos vemos después
+    - salu2
+    - hasta pronto
+    - bye
+ 
+- intent: buscar_autor
+  examples: |
+    - quiero buscar un autor
+    - Buscar autor
+    - buscar
+    - búsqueda
+    - buscar a [Lope de Vega](nombre_autor)
+    - [Lope de Vega](nombre_autor)
+    - buscar [Miguel de Cervantes](nombre_autor)
+    - [Miguel de Cervantes](nombre_autor)
+    - [Quevedo](nombre_autor)
+    - conocer más sobre [Cervantes](nombre_autor)
+    - [Cervantes](nombre_autor)
+    - [Miguel de Cervantes](nombre_autor)
+    - buscar a [Tirso de Molina](nombre_autor)
+    - [Calderón de la Barca](nombre_autor)
+    - buscar [Luis de Gongora](nombre_autor)
+    - [Gongora](nombre_autor)
+    - [Calderón](nombre_autor)
+    - conocer más sobre [Fernando de Rojas](nombre_autor)
+    - [Juan de la Cruz](nombre_autor)
+    - identificador [Q5682](id_autor)
+    - autor identificador [Q5682](id_autor)
+    - [Q165257](id_autor)
+    - buscar autor [Q165257](id_autor)
+    - [Q219744](id_autor)
+    - [Q353841](id_autor)
+    - [Q360512](id_autor)
+    - identificador [Q360512](id_autor)
+    - autor identificador [Q360512](id_autor)
+    - [Q360512](id_autor)
+    - buscar autor [Q360512](id_autor)
+
+- regex: id_autor
+    - ^Q[0-9]{1,9}
+
+

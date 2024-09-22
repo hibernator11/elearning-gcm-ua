@@ -1,0 +1,20 @@
+version: "3.1"
+
+stories:
+
+- story: buscar autor por nombre 1
+  steps:
+  - intent: buscar_autor
+  - slot_was_set:
+    - nombre_autor: "Miguel de Cervantes"
+  - action: action_buscar_autor
+  
+
+- story: buscar autor por id 1
+  steps:
+  - intent: buscar_autor
+  - slot_was_set:
+    - id_autor: "Q5682"
+  - action: action_buscar_autor
+  
+

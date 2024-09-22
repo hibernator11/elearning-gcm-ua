@@ -1,9 +1,11 @@
 rasa1/.rasa/*
-rasa-es/.rasa/*
-rasa-es-autores/.rasa/*
 rasa1/models/*
+rasa-es/.rasa/*
 rasa-es/models/*
+rasa-es-autores/.rasa/*
 rasa-es-autores/models/*
-rasa-en-kg
-rasa-es-entities/models/*
+rasa-es-autores-id/.rasa/*
+rasa-es-autores-id/models/*
 rasa-es-entities/.rasa/*
+rasa-es-entities/models/*
+rasa-en-kg

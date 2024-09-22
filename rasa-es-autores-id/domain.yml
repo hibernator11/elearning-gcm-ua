@@ -1,0 +1,51 @@
+version: "3.1"
+
+intents:
+  - saludo
+  - adios
+  - buscar_autor
+
+entities:
+  - nombre_autor
+  - id_autor
+
+slots:
+  nombre_autor:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: nombre_autor
+  id_autor:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: id_autor
+
+actions:
+  - action_buscar_autor
+
+responses:
+  utter_saludo:
+  - text: "¡Hola! ¿Cómo estás?"
+
+  utter_ask_autor:
+  - text: "¿Qué autor deseas buscar? Ingresa un nombre o un identificador de Wikidata."
+
+  utter_adios:
+  - text: "adiós"
+
+  utter_info_autor:
+  - text: "**Id**:{id} \n**Nombre**: {nombre} \n"
+    image: "{imagen}"
+
+  utter_info_autor_sin_imagen:
+  - text: "**Id**:{id} \n**Nombre**: {nombre} \n"
+    
+  utter_autor_no_encontrado:
+  - text: "Lo siento, no se encontraron resultados."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
