@@ -9,6 +9,8 @@ Actividades de ejemplo para crear un bot con [Rasa Open Source](https://rasa.com
 - [rasa-es-entities](rasa-es-entities): ejemplo que muestra como usar entities y slots para almacenar elementos de la conversación.
 - [rasa-es-autores-id](rasa-es-autores-id): ejemplo que realiza llamada al API de Wikidata para obtener información sobre autores del Siglo de Oro.
 
+<img src="ejemplo.png" style="width=30%">
+
 ## Instrucciones
 Los siguientes instrucciones se pueden ejecutar desde línea de comando:
 
