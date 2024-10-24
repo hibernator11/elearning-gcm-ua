@@ -8,6 +8,7 @@ intents:
   - humor_excelente
   - humor_infeliz
   - bot_challenge
+  - buscar_autor
 
 actions:
   - action_sugerir_autor
