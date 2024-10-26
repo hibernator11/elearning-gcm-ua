@@ -5,6 +5,7 @@ Actividades de ejemplo para crear un bot con [Rasa Open Source](https://rasa.com
 
 - [rasa1](rasa1): ejemplo creado con el comando `rasa init`.
 - [rasa-es](rasa-es): ejemplo configurado en español.
+- [rasa-es-fallback](rasa-es-fallback): ejemplo configurado en español que muestra como configurar el fallback.
 - [rasa-es-autores](rasa-es-autores): ejemplo que realiza llamada al API de Wikidata para obtener autores del Siglo de Oro.
 - [rasa-es-entities](rasa-es-entities): ejemplo que muestra como usar entities y slots para almacenar elementos de la conversación.
 - [rasa-es-autores-id](rasa-es-autores-id): ejemplo que realiza llamada al API de Wikidata para obtener información sobre autores del Siglo de Oro.
@@ -32,3 +33,4 @@ Los siguientes instrucciones se pueden ejecutar desde línea de comando:
 - https://github.com/RasaHQ/rasa/blob/main/examples/knowledgebasebot/
 - https://github.com/RasaHQ/rasa/blob/main/examples/concertbot
 - https://github.com/Kamalabot/rasa_tut_bots/tree/main/tutorial_bot
+- https://rasa.com/docs/rasa/fallback-handoff/
