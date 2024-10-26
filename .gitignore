@@ -2,6 +2,8 @@ rasa1/.rasa/*
 rasa1/models/*
 rasa-es/.rasa/*
 rasa-es/models/*
+rasa-es-fallback/.rasa/*
+rasa-es-fallback/models/*
 rasa-es-autores/.rasa/*
 rasa-es-autores/models/*
 rasa-es-autores-id/.rasa/*
